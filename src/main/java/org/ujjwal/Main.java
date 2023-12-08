@@ -23,7 +23,7 @@ public class Main {
 
         //parsing/decoding the data
         Students data = Students.parseFrom(dataFromSender);
-        System.out.println("size ="+data.getStudentsList().size());
+        System.out.println("size = "+data.getStudentsList().size());
         System.out.println(data.getStudents(0).getName() + " "+data.getStudents(0).getAge());
         System.out.println(data.getStudents(1).getName() + " "+data.getStudents(1).getAge());
 
